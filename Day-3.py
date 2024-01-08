@@ -1,5 +1,5 @@
-# Advent of Code 2023 Day 2
-import re, numpy
+# Advent of Code 2023 Day 3 - GitHub
+import re
 
 def ispart(adj_symbols):
     #find if any of the possible symbols are in the list of adjacent symbols

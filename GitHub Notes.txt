@@ -1,0 +1,5 @@
+Used the user commands to move PyCharm project to GitHub
+The project on GitHub has same name as the PyCharm project.
+    git remote add origin https://github.com/don0626/Advent_of_Code_2023.git
+    git branch -M main
+    git push -u origin main
