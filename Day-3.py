@@ -49,7 +49,6 @@ def main(data):
         if len(gear)==2:
             sum_gears+=math.prod(gear)
 
-
     print(f'Part one of sum part numbers: {sum_parts}')
     print(f'Part two of sum of gear ratios: {sum_gears}')
 
