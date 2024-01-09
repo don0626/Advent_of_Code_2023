@@ -42,8 +42,4 @@ def main():
     print (f'Part 1: Sum of valid game number {sumgood}')
     print (f'Part 2: Sum of products of max {sumcubes}')
 
-
-
-
-
 main()
