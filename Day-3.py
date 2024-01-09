@@ -27,7 +27,7 @@ def main(data):
         for m in p.finditer(line):
             part_st = max(0,m.start()-1)
             part_end = min(len(line),m.end()+1)
-            adj_symbols = ''  #list of adjacent characters include orginal number
+            adj_symbols = ''  # list of all adjacent characters include orginal number
             for sch_line in range(schematic_st,schematic_end+1):
                 adj_symbols += engine[sch_line][part_st:part_end]
             if ispart(adj_symbols):
