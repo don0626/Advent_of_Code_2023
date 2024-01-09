@@ -9,11 +9,6 @@ def ispart(adj_symbols):
             return True
     return False
 
-def isgear(adj_symbols):
-    if '*' in adj_symbols:
-        return True
-    return False
-
 def schematic(data):
     with open(data) as f:
         engine = [i for i in f.read().splitlines()]
